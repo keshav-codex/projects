@@ -1,0 +1,210 @@
+/* GENERAL STYLING*/
+
+body{
+    background-color:#f8f9fa;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+/*   PAGE CONTAINER */
+
+.container{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+
+/* CARD DESIGN */
+
+.card{
+    border:none;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.10);
+}
+
+.card-header{
+    background-color:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:12px 12px 0 0;
+}
+
+.card-header p{
+    color:#ffffff;
+    opacity:0.9;
+}
+
+.card-header h2,
+.card-header h3,
+.card-header h4{
+    margin-bottom:8px;
+}
+
+.card-body{
+    padding:30px;
+}
+
+
+/* LABELS */
+
+.form-label{
+    font-weight:600;
+    margin-bottom:6px;
+}
+
+
+/* INPUT FIELDS */
+
+.form-control,
+.form-select{
+    border-radius:8px;
+    padding:10px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow:none;
+    border:1px solid #0d6efd;
+}
+
+
+/*  PASSWORD SHOW BUTTON */
+
+.input-group .btn{
+    min-width:80px;
+}
+
+
+/*  ERROR MESSAGE */
+
+.text-danger{
+    font-size:14px;
+    margin-top:5px;
+}
+
+
+/* BUTTONS */
+
+.btn{
+    border-radius:8px;
+    padding:10px 20px;
+}
+
+.btn-primary{
+    font-weight:600;
+}
+
+.btn-secondary{
+    font-weight:600;
+}
+
+.btn-outline-dark{
+    font-weight:600;
+}
+
+.btn-danger{
+    font-weight:600;
+}
+
+
+/*   LINKS */
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+/* PROFILE PHOTO */
+
+#profileImage{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    border:3px solid #0d6efd;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+
+/* DASHBOARD DETAILS */
+
+.dashboard-details p{
+    font-size:17px;
+    margin-bottom:12px;
+}
+
+.dashboard-details strong{
+    display:inline-block;
+    width:180px;
+}
+
+
+/*   WELCOME PAGE */
+
+.success-message{
+    text-align:center;
+}
+
+.success-message h2{
+    color:green;
+    margin-bottom:20px;
+}
+
+.registration-number{
+    font-size:22px;
+    font-weight:bold;
+    color:#0d6efd;
+}
+
+
+/*  HORIZONTAL LINE */
+
+hr{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+
+/*  FILE INPUT  */
+
+input[type="file"]{
+    padding:8px;
+}
+
+
+/*  RESPONSIVE DESIGN */
+
+@media(max-width:768px){
+
+    .card-body{
+        padding:20px;
+    }
+
+    .btn{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    .d-flex{
+        flex-direction:column;
+    }
+
+    .dashboard-details strong{
+        width:100%;
+        display:block;
+        margin-bottom:4px;
+    }
+
+    #profileImage{
+        width:120px;
+        height:120px;
+    }
+
+}
